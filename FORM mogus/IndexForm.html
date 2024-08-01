@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<title>Survey Form</title>
+</head>
+
+<body>
+<h1 id="title" class="title">FORM MAKING AMOGUS</h1>
+<p id="description" class="description">Please fill this amogus form</p>
+
+<form method="post" id="survey-form">
+
+<fieldset>
+
+<label id="name-label" for="name">Name :<input placeholder="Rufus" required type="text" id="name"></label>
+<label id="email-label" for="email">Email :<input placeholder="rufus@gmail.com"required type="email" id="email"></label>
+<label id="number-label" for="number-label">Favourite Number :<input type="number" id="number" min="10" max="80" placeholder="10"></label>
+
+<label id="dropdown-label" for="dropdown">Choose Your Title :
+<select id="dropdown">
+  <option value="">Select Your Title</option>
+  <option value="1">+ OVERPOWERED +</option>
+  <option value="2">+ GODLY +</option>
+  <option value="3">+ UNTOUCHABLE +</option>
+</select>
+</label>
+
+<label class="gender">Choose Your Gender :</label>
+<label for="radiomale" class="rapat"><input checked value="male" id="radiomale" type="radio" name="radiogender"> Male</label>
+<label class="rapat" for="radiofemale"><input value="female" id="radiofemale" type="radio" name="radiogender"> Female</label>
+
+<label class="skill">Choose Your Skill :</label>
+<label class="rapat" for="warrior"><input value="warrior" id="warrior" type="checkbox"> Warrior</label>
+<label for="mage" class="rapat"><input value="mage" id="mage" type="checkbox"> Mage</label>
+<label for="tank" class="rapat"><input value="tank" id="tank" type="checkbox"> Tank</label>
+
+
+<label class="describe">Describe Why You Are Worthy :</label>
+  <textarea placeholder="I am here for blood..."></textarea>
+
+
+</fieldset>
+
+<input type="submit" id="submit">
+
+
+
+
+
+
+
+</form>
+</body>
+
+
+
+</html>

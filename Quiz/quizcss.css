@@ -1,0 +1,212 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior:smooth;
+    }
+    
+}
+
+
+
+header{
+   border:none;
+   display:flex;
+   width:100%;
+   height:60px;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(46, 46, 46);
+   top:0;
+   position:fixed;
+}
+
+header img{
+    border:none;
+    width:100px;
+    height:50px;
+    object-fit:cover;
+    mix-blend-mode: multiply;
+}
+
+body{
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    background-color: rgb(203, 203, 203);
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    font-size:18px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding-inline-start:0;
+    margin-block:0;
+    flex-wrap:wrap;
+    
+
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 10px;
+    padding: 0.2rem;
+    display: block;
+  }
+
+nav{
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color:yellow;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-left:190px;
+
+    
+}
+
+h2{
+    margin-top:0;
+    padding-top: 60px;
+    border-bottom: 3px solid grey;
+}
+
+header a:hover{
+    color:black;
+    background-color: white;
+}
+
+
+main{
+    
+    padding-top: 50px;
+}
+
+section{
+    width:80%;
+    max-width:600px;
+    margin: 0 auto 10px auto;
+
+}
+
+
+
+
+
+
+
+footer{
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+    font-size: 14px;
+    color:white;
+    display:flex;
+}
+
+address{
+    text-align:center;
+}
+
+
+
+footer a{
+    color:white;
+}
+
+.questionH{
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+
+.info{
+    padding: 10px 0 0 5px;
+    }
+
+.info label, .info input{
+    display:inline-block;
+}
+
+.info input {
+    width: 50%;
+    text-align: left;
+  }
+
+ .info label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+  }
+
+  .questionH {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+
+  .questionE1, .questionE2 {
+    border: none;
+   
+    
+  }
+
+  .questionE1{
+    margin-top: 30px;
+
+  }
+  
+  
+  .questionE2{
+    margin-top: 20px;
+
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .quizhard{
+    margin-top:30px;
+  }
+
+  
+
+button[type=submit]{
+
+    margin:50px auto;
+    border-radius:50px;
+    width:150px;
+    font-size:16px;
+    height:50px;
+    border-color:whitesmoke;
+    display:block;
+    font-weight: bold;
+}
+
+#select{
+margin-left: 15px;
+margin-top: 10px;
+}
+
+textarea{
+    margin-left: 15px;
+    margin-top: 10px;
+}

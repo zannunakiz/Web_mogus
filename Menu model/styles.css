@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(90deg, black, grey, white);
+    background-size: 100%;
+    font-family: sans-serif;
+}
+
+.menu{
+    width:80%;
+    max-width: 350px;
+    padding: 30px;
+    margin:auto;
+    margin-top:70px;
+    background: linear-gradient(90deg, white, grey, black);
+    border-style: solid;
+    border-color:white;
+    box-shadow: 0 0 100px white;
+    border-radius: 25px;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-family:impact;
+}
+
+.since{
+    text-align: center;
+    font-style: italic;
+}
+
+hr{
+    height:2px;
+    background-color: rgb(43, 191, 232);
+    border-color: rgb(43, 191, 232);
+
+    /*background-color: rgba(113, 33, 140, 0.47);*/
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:impact;
+    margin-top: 10px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    display: block;
+    width: 70px;
+    height: 70px;    
+    mix-blend-mode: multiply;
+
+}
+
+.img2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -27px;
+        display: block;
+        width: 70px;
+        height: 65px;    
+        mix-blend-mode: multiply;
+}
+
+
+
+
+.item p{
+    display:inline-block;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+
+}
+
+.barang{
+    margin-left:15%;
+    width: 60%;
+    text-align: left;
+}
+
+.harga{
+    text-align: right;   
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+
+footer{
+    text-align:center;
+    font-size:85%;
+    margin-top: 10px;
+    margin-bottom: px;
+}
+
+footer p{
+    margin-top:5px;
+    margin-bottom: -10px;
+}
+
+a{
+    color:rgba(23, 82, 126)
+}
+
+a:visited{
+    color:rgba(23, 82, 126)
+
+}
+
+a:hover{
+    color: cyan;
+}
+
+a:active{
+    color:white;
+
+}
+
+h4{
+    text-align: center;
+    font-style: italic;
+    color: lightblue;
+    font-family: cursive;
+}

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.image{
+    position:absolute;
+    width:60px;
+    border-radius: 30px;
+    top: 7px;
+    left:20px;
+    border:1px solid black; 
+
+
+}
+
+
+#piano{
+    position: absolute;
+    top:0;
+    border: 4px solid black;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    width:900px;
+    height:280px;
+    background-color: rgba(8, 0, 255, 0.518);
+    z-index:-1;
+    border-radius: 20px;
+    box-shadow:0 0 200px white;
+}
+
+.keys{
+    position:absolute;
+    border:2px solid black;
+    z-index:1;
+    background-color: black;
+    top:75px;
+    height:65%;
+    width:850px;
+    left: 21px;
+    border-radius: 5px;
+    overflow:hidden;
+
+}
+
+.key{
+    position:relative;
+    width:42.3px;
+    height:100%;
+    background-color: white;
+    float:left;
+    border:3px solid black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+
+.key.black::after{
+    background-color: black;
+    width:30px;
+    height:115px;
+    left:-16px;
+    z-index:2;
+    content:"";
+    position: absolute;
+}
+
+.tulisan{
+    position: absolute;
+    left:91px;
+    font-size: 25px;
+    top:-4px;
+    
+}
+p{
+    background: linear-gradient(
+                to right, 
+                red, 
+                orange, 
+                yellow, 
+                green, 
+                rgb(0, 0, 255), 
+                indigo, 
+                violet
+            );
+    border-radius: 10px;
+    border:3px solid black;
+    font-family: tahoma;
+}
+
+@media (max-width: 900px) {
+    #piano {
+      width: 480px;
+    }
+  
+    .keys {
+      width: 427px;
+    }
+}
+
+
+
+

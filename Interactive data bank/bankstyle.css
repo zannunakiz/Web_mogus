@@ -1,0 +1,140 @@
+.sr-only{
+    border:0 !important;
+    clip:rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    position:absolute !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    width: 1px !important;
+    height: 1px !important;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+tbody td {
+    width: 100vw;
+    min-width: 4rem;
+    max-width: 4rem;
+  }
+
+.table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+section{
+    border:3px solid grey;
+    max-width: 100%;
+    width:650px;
+    margin:0 auto;
+}
+
+.flex{
+    display:flex;
+    flex-direction:column;
+    margin-left: 10px;
+    gap:10px;
+}
+
+.flex span:last-of-type{
+    font-size: 0.7em;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+
+.years{
+    justify-content: flex-end;
+    color: white;
+    background-color: black;
+    padding:10px;
+    position:sticky;
+    top:0;
+    display:flex;
+    z-index:999;
+    padding-right:21px;
+}
+
+.year{
+    width:100vw;
+    min-width: 83px;
+    max-width: 83px;
+    text-align: right;
+    font-weight: bold;
+
+
+}
+
+caption{
+    text-align:left;
+    font-size:25px;
+    color:rgb(0, 119, 255);
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left: 10px;
+}
+
+tr.data th{
+    text-align: left;
+    padding-top:6px;
+    padding-left:10px;
+
+}
+
+.description{
+    display:block;
+    font-style:italic;
+    font-weight:normal;
+    padding-top: 15px;
+    padding-bottom:7.5px;
+
+}
+
+tr.data td {
+    vertical-align: top;
+    padding: 6px 10px;
+    text-align: right;
+  }
+
+
+
+tr.data{
+    background-image: linear-gradient(to bottom, rgb(199, 199, 199) 1.845rem, white 1.845rem);
+}
+
+
+
+.total th{
+    text-align: left;
+    padding-left: 10px;
+
+
+}
+
+.total td{
+    vertical-align: top;
+    padding: 6px 10px;
+    text-align: right;
+}
+
+.total{
+   
+    border-bottom:5px solid black;
+    border-style:double;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+
+.current{
+    font-style:italic;
+}
