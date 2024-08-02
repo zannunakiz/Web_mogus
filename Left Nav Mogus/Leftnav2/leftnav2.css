@@ -1,0 +1,149 @@
+html, body{
+  
+    font-family:'Trebuchet MS';
+    line-height: 1.5;
+    min-width: 290px;
+    background-color: rgb(225, 225, 234);
+   
+}
+
+nav{
+    border-right:solid rgb(190, 190, 190);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width:300px;
+   
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin:10px;
+
+}
+
+nav ul{
+    list-style: none;
+    height:88%;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    display:block;
+    cursor:pointer;
+    padding:10px 30px;
+    padding-left:65px;
+    
+    
+}
+
+nav a:hover{
+    background-color: azure;
+}
+
+nav li{
+    border-top:1px solid rgb(190, 190, 190);
+    width:100%;
+    position:relative;
+    font-style:italic;
+}
+
+#main{
+    position: absolute;
+    margin-left:310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    
+}
+
+#main header{
+    font-weight: bold;
+    font-size:30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+article{
+    margin:15px;
+    font-size:0.96em;
+    white-space: pre-line;
+    text-align: justify;
+    line-height: 2;
+}
+
+
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius:5px;}
+
+@media only screen and (max-width:850px){
+ nav ul{
+  height:200px;
+  border-top: 1px solid black;
+  
+ }
+
+ nav{
+  border-bottom: 1px solid black;
+  padding: 0;
+  position:absolute;
+  width:100%;
+  max-height:270px;
+  z-index: 1;
+  margin:0;
+  top:0;
+
+
+ }
+
+ #main{
+  position:absolute;
+  margin-top:270px;
+  margin-left:0;
+ }
+}
+
+@media (prefers-reduced-motion: no-preference){
+  *{
+    scroll-behavior: smooth;
+  }
+}
+
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, blue, cyan);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient-animation 3s infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
