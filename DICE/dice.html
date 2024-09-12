@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <h1>DICE MOGUS</h1>
+    
+    <button id="rulesBtn">Showrules</button>
+    <div id="rules">
+    <h3>Rules</h3>
+    <p>There are total of Five rounds
+    You can only roll the dice three times per round
+    To start the game, roll the dice
+    Then, choose from one of the selected scores or roll the dice again
+    If you choose a selected score, then you will move to the next round
+    If you decline to choose a selected score, then you can roll the dice again two more times
+    </p>
+    <h3>Points</h3>
+    <p class="points">
+    Three of a kind: Sum of all five dice * 3
+    Four of a kind: Sum of all five dice * 4
+    Full house: Sum of all five dice * 6
+    Small straight: sum of all five dice * 10
+    Large straight: sum of all five dice * 20
+    </p>
+    </div>
+    
+    <div class="container" id="container">
+        <div id="dices">
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        </div>
+
+        <div id="rolls-round">
+            <p>Rolls: <span id="rolls">0</span></p>
+            <p> | </p>
+            <p>Round: <span id="round">1</span></p>
+        </div>
+
+        <div id="inputs">
+            <label id="trio-mogus">
+                <input  data-score="3" class="radio-list" disabled id="radio-trio" type="radio" name="score-option">Trio Mogus<span class="list-span"></span>
+              </label>
+              
+              <label id="four-mogus">
+                <input  data-score="4"  class="radio-list"disabled id="radio-four" type="radio" name="score-option">Four Mogus<span class="list-span"></span>
+              </label>
+              
+              <label id="full-mogus">
+                <input  data-score="6" class="radio-list"disabled id="radio-full" type="radio" name="score-option">Full Mogus<span class="list-span"></span>
+              </label>
+              
+              <label id="small-straight">
+                <input data-score="10"  class="radio-list" disabled  id="radio-small-straight" type="radio" name="score-option">Small Straight<span class="list-span"></span>
+              </label>
+              
+              <label id="large-straight">
+                <input data-score="20" class="radio-list" disabled  id="radio-large-straight" type="radio" name="score-option">Large Straight<span class="list-span"></span>
+              </label>
+              
+              <label id="none-combo">
+                <input data-score="1" class="radio-list"disabled id="radio-none" type="radio" name="score-option">None Combo<span class="list-span"></span>
+              </label>
+        </div>
+
+        <div id="options-buttons">
+            <button id="keepBtn">Keep the Selected One</button>
+            <button id="rollBtn">Roll the Dice</button>
+        </div>
+
+        <div id="history-box">
+            <p>Score History (Total Score: <span id="total-score">0</span>)</p>
+            <div class="hist" id="hist">
+              
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <img src="https://static.vecteezy.com/system/resources/previews/006/923/039/non_2x/dice-game-line-icon-set-pipped-dices-toss-from-one-to-six-die-for-casino-craps-table-or-board-games-luck-and-random-choice-illustration-isolated-free-vector.jpg" alt="dice">
+    <p class="copyright">SigmaSkibidi Coorperation</p>
+<script src="dice.js"></script>
+</body>
+</html>
